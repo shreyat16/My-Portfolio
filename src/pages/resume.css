@@ -1,0 +1,11 @@
+.resumeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumeImage{
+    margin-top: 20px;
+    width: 100vh;
+    margin-top: 30px;
+}

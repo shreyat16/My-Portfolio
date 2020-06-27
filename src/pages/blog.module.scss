@@ -1,0 +1,31 @@
+.blog{
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.post{
+    margin: 1rem 0;
+
+    a{
+        background: #f4f4f4;
+        color:black;
+        display: block;
+        padding:1rem;
+        text-decoration: none;
+    }
+}
+
+bloglink:hover{
+    background-color: #e4e4e4;
+}
+
+h2{
+    margin-bottom: .1;
+}
+
+p{
+    color: #777777;
+    font-size: 0.8rem;
+    font-style: italic;
+}
