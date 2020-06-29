@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "shreya-thammana",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "My Portfolio Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "presurge": "npm run build", "surge": "npx surge --domain $(node -p \"require('./package.json').name\").surge.sh --project ./public"
   },
   "dependencies": {
     "cross-env": "^7.0.2",

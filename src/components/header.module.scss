@@ -1,17 +1,26 @@
+.body{
+    text-align: center;
+
+}
+
 .header{
     padding: 1rem 0 3rem;
+    text-align: center;
 }
 
 .title{
     color:black;
     font-size: 3rem;
     text-decoration: none;
+    text-align: center;
 }
 
 .navlist{
     display: flex;
     list-style-type: none;
-    margin: 0;
+    text-align: center;
+    margin:0 auto;
+    padding-left: 20%;
 }
 
 .navItem{
@@ -19,6 +28,7 @@
     font-size: 0.9rem;
     margin-right: 1.3rem;
     text-decoration: none;
+    text-align: center;
 }
 
 .navItem:hover{
